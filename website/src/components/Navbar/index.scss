@@ -1,0 +1,94 @@
+.nav-bar {
+  background: #181818;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px; // Add padding to the left of the navbar
+
+
+  .logo {
+    .logoName {
+      width: auto;
+      height: 25px; // Adjust the height to fit the navbar's height
+    }
+  }
+
+  nav {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+
+    a {
+      font-size: 20px; // Adjust based on your requirements
+      color: #4d4d4e;
+      display: flex; // Use flex for centering vertically
+      align-items: center; // Center items vertically
+      justify-content: center; // Center items horizontally
+      width: 100px;
+      position: relative;
+      text-decoration: none;
+
+      i {
+        transition: all 0.4s ease-out;
+      }
+
+      &:hover {
+        color: #95a1f1;
+
+        svg {
+          opacity: 0;
+        }
+
+        &:after {
+          opacity: 1;
+        }
+      }
+
+      &:after {
+        content: attr(data-text); // Show the text content defined in data-text attribute
+        font-size: 14px;
+        letter-spacing: 3px;
+        position: absolute;
+        bottom: 0;
+        opacity: 0;
+        transition: all 0.4s ease-out;
+      }
+    }
+    a.active{
+      svg{
+        color: #F49E4C; // Perhaps change later, idk.
+      }
+    }
+  }
+
+  ul{
+    position: absolute;
+    display: flex;
+    right: 20px;
+    height: 35%;
+    width: auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+
+    li{
+      a{
+        padding-right: 20px;
+        font-size: 26px;
+
+        &:hover svg{
+          color: #F49E4C;
+        }
+      }
+    }
+  }
+}
