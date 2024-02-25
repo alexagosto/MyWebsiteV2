@@ -2,8 +2,9 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCss3, faPython, faReact, faRust, faUnity } from '@fortawesome/free-brands-svg-icons'
+import { faHtml5, faJs, faReact, faRust, faUnity } from '@fortawesome/free-brands-svg-icons'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
+import Loader from 'react-loaders'
 
 const About = () =>{
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -16,6 +17,7 @@ const About = () =>{
   }, [])
 
   return(
+    <>
     <div className={'container about-page'}>
       <div className={'text-zone'}>
         <h1>
@@ -37,15 +39,18 @@ const About = () =>{
 
       <div className={'stage-cube-cont'}>
         <div className={'cube-spinner'}>
-          <div className={'face1'}><FontAwesomeIcon icon={faCss3} color='#28A4D9' /></div>
-          <div className={'face2'}><FontAwesomeIcon icon={faRust} color='#000000' /></div>
-          <div className={'face3'}><FontAwesomeIcon icon={faPython} color='#5E84C2' /></div>
-          <div className={'face4'}><FontAwesomeIcon icon={faDatabase} color='#FFFFFF' /></div>
-          <div className={'face5'}><FontAwesomeIcon icon={faReact} color='#5ED4F4' /></div>
-          <div className={'face16'}><FontAwesomeIcon icon={faUnity} color='#181818' /></div>
+          <div className={'face1'}><FontAwesomeIcon icon={faHtml5} color='#f16428' /></div>
+          <div className={'face2'}><FontAwesomeIcon icon={faReact} color='#149eca' /></div>
+          <div className={'face3'}><FontAwesomeIcon icon={faJs} color='#f0dc4e' /></div>
+          <div className={'face4'}><FontAwesomeIcon icon={faUnity} color='#222c36' /></div>
+          <div className={'face5'}><FontAwesomeIcon icon={faRust} color='#000000' /></div>
+          <div className={'face6'}><FontAwesomeIcon icon={faDatabase} color='#FFFFFF' /></div>
         </div>
       </div>
     </div>
+
+    <Loader type={"ball-scale-ripple-multiple"} />
+    </>
   )
 }
 
