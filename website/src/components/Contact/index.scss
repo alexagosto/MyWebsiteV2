@@ -48,24 +48,24 @@
     width: 100%;
     border: 0;
     background: #a7b2f3;
-    height: 60px;
+    height: 50px;
     font-size: 28px;
     padding: 20px;
     color: #000000;
-    min-height: 250px;
+    min-height: 200px;
     box-sizing: border-box;
   }
 
   .flat-button{
     color: #000000;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: "sans-serif";
     text-decoration: none;
     padding: 10px 18px;
     border: 1px solid #000000;
-    margin-top: 15px;
+    margin-top: 10px;
     float: right;
     border-radius: 6px;
     animation: cubic-bezier 1s 1.8s backwards;
@@ -83,7 +83,7 @@
   position: absolute;
   background: #000000;
   top: 50px;
-  right: 40%;
+  right: 32%;
   z-index: 9999;
   width: 280px;
   padding: 20px;
@@ -105,7 +105,7 @@
 .map-wrap {
   background: rgba(79, 250, 225, 0.2);
   float: right;
-  width: 53%;
+  width: 52%;
   height: 100%;
   margin: 25px;
 }
