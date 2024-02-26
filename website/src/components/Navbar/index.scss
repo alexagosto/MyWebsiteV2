@@ -92,3 +92,77 @@
     }
   }
 }
+
+.hamburger,
+.close-icon{
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-bar {
+    background: transparent;
+    position: initial;
+    height: auto;
+    width: auto;
+    min-height: auto;
+
+    ul, nav {
+      display: none;
+    }
+
+    .logo{
+      .logoName{
+        width: auto;
+        height: 19px;
+        margin-top: 13px;
+      }
+    }
+
+    nav {
+      width: 101%;
+      height: 100%;
+      box-sizing: border-box;
+      background: #181818;
+      top: 0;
+      left: 0;
+      position: fixed;
+      z-index: 2;
+      margin: auto 50%;
+
+      a{
+        display: flex;
+        color: #FFFFFF;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 35%;
+      }
+
+      a:after{
+        opacity: 1;
+        position: initial;
+        width: auto;
+        margin-left: 10px;
+      }
+
+      a svg{
+        opacity: 1 !important;
+      }
+
+      &.mobile-show{display: block;}
+    }
+
+    .hamburger,
+    .close-icon{
+      display: block;
+      position: absolute;
+      font-size: 25px;
+      top: 10px;
+      right: 10px
+    }
+  }
+}
+
+
+
+

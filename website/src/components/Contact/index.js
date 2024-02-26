@@ -75,6 +75,8 @@ const Contact = () => {
       <div className={'info-map'}>
         Alex Y. Agosto Figueroa,
         <br/>
+        Univeristy of Puerto Rico (RUM)
+        <br/>
         Mayaguez, Puerto Rico, 00682
         <span>alexagosto@proton.me</span>
       </div>

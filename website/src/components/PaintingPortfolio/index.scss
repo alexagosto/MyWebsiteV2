@@ -55,7 +55,7 @@
       margin-bottom: 0;
       margin-top: 0;
       color: #fff;
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 500;
       line-height: 24px;
     }
@@ -68,9 +68,9 @@
     }
 
     .btn {
-      margin-top: 30px;
+      margin-top: 20px;
       margin-bottom: 10px;
-      padding: 0 23px;
+      padding: 0 15px;
       height: 40px;
       line-height: 34px;
       border: 2px solid #F49E4C;
@@ -125,7 +125,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent background */
   }
 
   .modal img {
@@ -137,3 +136,28 @@
   }
 }
 
+@media screen and (max-width: 1200px){
+  .container.paintings-page {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+
+    h1.page-title {
+      margin-left: 10px;
+      margin-top: 10px;
+      font-size: 56px;
+    }
+
+    .image-container{
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+    .image-box{
+      height: calc((100vw - 40px) / 3); // Adjust height to maintain square aspect ratio, accounting for padding
+      max-width: calc(50% - 10px); // Adjust width for 3-column layout
+      flex: 0 0 calc(50% - 10px); // Adjust flex-basis to match max-width and prevent growing
+      margin-bottom: 10px; // Add some space below each row
+    }
+  }
+}

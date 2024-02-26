@@ -3,7 +3,7 @@
   .text-area{
     position: absolute;
     left: 10%;
-    top: 45%;
+    top: 50%;
     transform: translateY(-50%);
     width: 40%;
     max-height: 90%;
@@ -55,10 +55,35 @@
     letter-spacing: 3px;
     animation: cubic-bezier 1s 1.8s backwards;
   }
+  .resume-text{
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: 0;
+  }
 
   .flat-button{
     color: #000000;
-    font-size: 35px;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: "sans-serif";
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #000000;
+    margin-top: 5px;
+    float: left;
+    animation: cubic-bezier 1s 1.8s backwards;
+    white-space: nowrap;
+    background: #F49E4C;
+
+    &:hover{
+      background: #AB3428;
+      color: #333;
+    }
+  }
+  .flat-button-resume{
+    color: #000000;
+    font-size: 25px;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: "sans-serif";
@@ -69,11 +94,94 @@
     float: left;
     animation: cubic-bezier 1s 1.8s backwards;
     white-space: nowrap;
-    background: #F49E4C;
+    background: #17c3b2;
 
     &:hover{
       background: #AB3428;
       color: #333;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .tags{
+    display: none;
+  }
+
+
+  .home-page h1::before{
+    font-size: 15px;
+    margin-top: -20px;
+  }
+  .home-page h1::after{
+    margin-top: 40px;
+    font-size: 15px;
+  }
+
+  .home-page{
+    .text-area{
+      margin-left: 15px;
+      position: initial;
+      width: 95%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    h1{
+      font-size: 35px;
+      letter-spacing: 2px;
+      img{
+        width: 96%;
+        height: auto;
+      }
+    }
+    h2{
+      margin-top: 25px;
+      font-size: 16px;
+      margin-left: 15px;
+    }
+    .resume-text{
+      margin-top: 30px;
+      margin-left: 30px;
+      font-size: 18px;
+    }
+
+    .flat-button{
+      float: none;
+      font-size: 24px;
+      display: block;
+      margin: 30px auto 0 auto;
+      width: 150px;
+    }
+
+    .flat-button-resume{
+      float: none;
+      font-size: 22px;
+      display: block;
+      margin: 30px auto 0 auto;
+      width: 170px;
+    }
+
+
+    .logo-container{
+      position: relative;
+      width: 200px;
+      height: auto;
+      top: 40px;
+      right: 0;
+      box-sizing: border-box;
+      margin: auto;
+      left: 0;
+
+      svg {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        margin: auto;
+      }
     }
   }
 }

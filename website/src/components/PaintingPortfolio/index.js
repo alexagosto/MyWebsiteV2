@@ -53,7 +53,7 @@ const PaintingPortfolio = () => {
 
   const handleModalClick = (e) => {
     // If the clicked element is not the image, close the modal
-    if (e.target.classList.contains('modal')) {
+    if (e.target.classList.contains('modal') || !e.target.classList.contains('modal')) {
       closeModal();
     }
   };
