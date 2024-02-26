@@ -77,3 +77,72 @@
     }
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .tags{
+    display: none;
+  }
+
+
+  .home-page h1::before{
+    font-size: 15px;
+    margin-top: -20px;
+  }
+  .home-page h1::after{
+    margin-top: 40px;
+    font-size: 15px;
+  }
+
+  .home-page{
+    .text-area{
+      position: initial;
+      width: 100%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    h1{
+      font-size: 35px;
+      letter-spacing: 2px;
+      img{
+        width: 95%;
+        height: auto;
+      }
+    }
+
+    h2{
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .flat-button{
+      float: none;
+      font-size: 24px;
+      display: block;
+      margin: 30px auto 0 auto;
+      width: 150px;
+    }
+
+
+    .logo-container{
+      position: relative;
+      width: 200px;
+      height: auto;
+      top: 40px;
+      right: 0;
+      box-sizing: border-box;
+      margin: auto;
+      left: 0;
+
+      svg {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        margin: auto;
+      }
+    }
+  }
+}

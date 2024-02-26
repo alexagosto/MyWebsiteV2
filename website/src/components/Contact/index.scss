@@ -118,3 +118,26 @@
   animation: backInRight 1s 1.2s forwards;
 }
 
+@media screen and (max-width: 1200px){
+  .map-wrap {
+    float: none;
+    width: 87%;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+
+  }
+
+  .info-map{
+    position: relative;
+    top: 0;
+    right: -16%;
+    width: 240px;
+    padding: 10px;
+    font-size: 15px;
+
+    span {
+      font-size: 18px;
+    }
+  }
+}
