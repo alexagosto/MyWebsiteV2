@@ -1,9 +1,8 @@
 # MyWebsiteV2
 Revamped version of my website, ideally a complete overhaul; this time with react instead of vue.
 
-A painting section will be added once mobile version is fixed and hosted.
+Currently hosted at: https://wwww.alexagosto.com 
 
-Idk what to add apart from that.
 
 ## Available Scripts
 
