@@ -20,7 +20,7 @@ const About = () =>{
     <>
     <div className={'container about-page'}>
       <div className={'text-zone'}>
-        <h1>
+        <h1 className={'about-title'}>
           <AnimatedLetters letterClass={letterClass} strArray={['A', 'b', 'o','u','t',' ','m','e']} idx={15} />
         </h1>
         <p>I'm Alex Agosto, a dedicated software engineering student from Puerto Rico, eagerly anticipating my graduation in December 2024.

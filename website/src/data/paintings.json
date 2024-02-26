@@ -1,0 +1,39 @@
+{
+  "paintings": [
+    {
+      "cover": "/paintings/Oil/1.png",
+      "title": "Autumn",
+      "description": "04/28/2021"
+    },
+    {
+      "cover": "/paintings/Oil/2.png",
+      "title": "Tropics",
+      "description": "08/28/2023"
+    },
+    {
+      "cover": "/paintings/Oil/3.png",
+      "title": "Waterfall",
+      "description": "08/29/2021"
+    },
+    {
+      "cover": "/paintings/Oil/4.png",
+      "title": "Beaches",
+      "description": "07/13/2021"
+    },
+    {
+      "cover": "/paintings/Oil/5.png",
+      "title": "Grey",
+      "description": "05/21/2021"
+    },
+    {
+      "cover": "/paintings/Oil/6.png",
+      "title": "Winter",
+      "description": "05/03/2021"
+    },
+    {
+      "cover": "/paintings/Oil/7.png",
+      "title": "Glacial",
+      "description": "06/03/2021"
+    }
+  ]
+}

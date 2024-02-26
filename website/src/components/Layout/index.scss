@@ -9,7 +9,7 @@
 
 .top-tags{
   bottom: auto;
-  top: 100px;
+  top: 80px;
 }
 
 
@@ -18,8 +18,8 @@
   opacity: .6;
   position: absolute;
   bottom: 0;
-  left: 150px;
-  font-size: 35px;
+  left: 120px;
+  font-size: 20px;
   font-family: 'La Belle Aurore', 'sans-serif';
 }
 
@@ -44,8 +44,9 @@
 }
 
 .about-page,
-.contact-page {
-  .text-zone{
+.contact-page,
+.paintings-page{
+  .text-zone {
     position: absolute;
     left: 10%;
     top: 55%;
@@ -55,14 +56,16 @@
     display: table-cell;
     max-height: 90%;
 
-    h1{
-      font-size: 100px;
+  }
+
+  h1{
+      font-size: 50px;
       font-family: 'Coolvetica', 'sans-serif';
       color: #181818;
       font-weight: 400;
       margin-top: 0;
       position: relative;
-      margin-bottom: 80px;
+      margin-bottom: 50px;
       left: 10px;
 
       &::before{
@@ -70,7 +73,7 @@
         color: black;
         opacity: 0.6;
         font-family: 'La Belle Aurore', 'sans-serif';
-        font-size: 35px;
+        font-size: 20px;
         position: absolute;
         margin-top: -25px;
         left: -10px;
@@ -80,7 +83,7 @@
       &::after{
         content: '</h1>';
         font-family: 'La Belle Aurore', 'sans-serif';
-        font-size: 35px;
+        font-size: 20px;
         position: absolute;
         line-height: 35px;
         color: black;
@@ -90,8 +93,8 @@
       }
     }
 
-    p {
-      font-size: 32px;
+  p {
+      font-size: 22px;
       color: #ffffff;
       font-family: 'sans-serif';
       font-weight:300;
@@ -111,10 +114,9 @@
       }
     }
 
-    .text-animate-hover{
-      &:hover{
-        color: #F49E4C;
-      }
+  .text-animate-hover{
+    &:hover{
+      color: #F49E4C;
     }
   }
 }

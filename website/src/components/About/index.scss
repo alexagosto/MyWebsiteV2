@@ -14,13 +14,13 @@
     animation-iteration-count: infinite;
     animation-duration: 12s;
     transform-style: preserve-3d;
-    transform-origin: 250px 250px 0;
-    margin-left: calc(50% - 100px);
+    transform-origin: 150px 150px 0;
+    margin-left: calc(50% - 150px);
 
     div {
       position: absolute;
-      width: 500px;
-      height: 500px;
+      width: 300px;
+      height: 300px;
       border: 1px solid #000000;
       background: rgba(84, 81, 81, 0.5);
       text-align: center;
@@ -28,36 +28,36 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      box-shadow: 0 0 10px 0px #783F8E;
+      box-shadow: 0 0 10px 0 #783F8E;
     }
 
     .face1 {
-      transform: translateZ(250px);
+      transform: translateZ(150px);
       color: #dd0031;
       background: rgba(9, 129, 74, 0.7);
     }
     .face2 {
-      transform: rotateY(90deg) translateZ(250px);
+      transform: rotateY(90deg) translateZ(150px);
       color: #f06529;
       background: rgba(244, 158, 76, 0.7);
     }
     .face3 {
-      transform: rotateY(90deg) rotateX(90deg) translateZ(250px);
+      transform: rotateY(90deg) rotateX(90deg) translateZ(150px);
       color: #28a4d9;
       background: rgba(13, 0, 164, 0.7);
     }
     .face4 {
-      transform: rotateY(180deg) rotateZ(90deg) translateZ(250px);
+      transform: rotateY(180deg) rotateZ(90deg) translateZ(150px);
       color: #5ed4f4;
       background: rgba(126, 126, 126, 0.7);
     }
     .face5 {
-      transform: rotateY(-90deg) rotateZ(90deg) translateZ(250px);
+      transform: rotateY(-90deg) rotateZ(90deg) translateZ(150px);
       color: #efd81d;
       background: rgba(255, 255, 255, 0.7);
     }
     .face6 {
-      transform: rotateX(-90deg) translateZ(250px);
+      transform: rotateX(-90deg) translateZ(150px);
       color: #FF934F;
       background: rgba(0, 0, 0, 0.7);
     }

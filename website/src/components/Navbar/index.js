@@ -2,7 +2,7 @@ import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
 import LogoName from '../../assets/mylogos/FullNameBlackOnWhite.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faPaintBrush, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Navbar = () => (
@@ -22,6 +22,10 @@ const Navbar = () => (
 
       <NavLink exact={"true"} activeClassName={'active'} className="contact-link" to={"/contact"} data-text={"CONTACT"}>
         <FontAwesomeIcon icon={faEnvelope} color = "#FFFFFF" />
+      </NavLink>
+
+      <NavLink exact={"true"} activeClassName={'active'} className="contact-link" to={"/paintings"} data-text={"PAINTINGS"}>
+        <FontAwesomeIcon icon={faPaintBrush} color = "#FFFFFF" />
       </NavLink>
     </nav>
 
