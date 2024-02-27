@@ -1,10 +1,9 @@
 import './index.scss'
 import LogoS from '../../../assets/mylogos/AcronymFillBlack.png'
-import { useEffect, useRef } from 'react'
+import {useRef } from 'react'
 const Logo = () => {
 
   const bgRef = useRef();
-  const outlineLogoRef = useRef();
   const solidLogoRef = useRef();
 
   return(
