@@ -1,29 +1,11 @@
 import './index.scss'
 import LogoS from '../../../assets/mylogos/AcronymFillBlack.png'
 import { useEffect, useRef } from 'react'
-import gsap from 'gsap'
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
-
 const Logo = () => {
 
   const bgRef = useRef();
   const outlineLogoRef = useRef();
   const solidLogoRef = useRef();
-
-  useEffect(()=> {
-  gsap.registerPlugin(DrawSVGPlugin)
-
-  gsap.timeline()
-    .to(bgRef.current, {
-    duration:1,
-    opacity:1,
-  })
-    .from(outlineLogoRef.current, {
-      drawSVG: 0,
-      duration:10,
-    })
-  }, [])
-
 
   return(
     <div className="logo-container" ref={bgRef}>
