@@ -9,15 +9,7 @@
   left: auto;
   margin: auto;
   opacity: 0;
-
-  /*
-  .svg{
-    width: 100%;
-    height: auto;
-    bottom: 0;
-  }
-   uncomment after getting the custom svg,
-   */
+  animation: fadeIn 1.5s 1s forwards;
 
   .solid-logo{
     position: absolute;
@@ -28,6 +20,7 @@
     margin: auto;
     width: 100%;
     opacity: 1; // set to 0 once you have the custom svg done
+    animation: fadeIn 1s forwards;
   }
 }
 
