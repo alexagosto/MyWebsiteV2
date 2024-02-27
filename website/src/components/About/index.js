@@ -31,7 +31,7 @@ const About = () =>{
         are the ones that have captivated my interest and much of my time. Beyond my primary interests, I've worked with and learnt of database management
         and machine learning both through personal projects and some university assignments. I've also started learning Rust and have loved it up to now,
         so I'm thinking of incorporating it into a couple upcoming projects.</p>
-        <p>Outside of technology, I find joy in playing musical instruments, painting/drawing, and immersing myself in the process of learning a language,
+        <p>Outside of technology, I find joy in playing musical instruments, painting/drawing, and immersing myself in the process of learning a language;
           with German being my current endeavour. These hobbies not only bring me happiness; they also lead to some of my more interesting ideas for projects.
           I'm excited to share some of my recent paintings in the "Paintings" section of my profile. I would love to hear your thoughts about them, so feel
           free to take a look!</p>
