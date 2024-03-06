@@ -1,7 +1,7 @@
 # MyWebsiteV2
 Revamped version of my website, ideally a complete overhaul; this time with react instead of vue.
 
-Currently hosted at: https://wwww.alexagosto.com 
+Currently hosted at: https://www.alexagosto.com 
 
 
 ## Available Scripts
